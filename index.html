@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8" />
+	<title>Belajar Javascript - NIOMIC</title>
+</head>
+<body>
+
+	<h2>Login</h2>
+        <p class="department">- Department of Finance -</p>
+        <input type="email" id="email" value="email" /> <br /><br />
+        <input type="username" id="uname" value="username" /> <br /><br />
+        <input type="password" class="pass" value="password" /> <br /><br />
+
+        <button type="button" onclick="panggilInternal()" name="button">Jalan</button>
+
+	<script type="text/javascript">
+		function panggilInternal(){
+			var byid = document.getElementById("email")
+
+			var tag = document.getElementsByTagName("h2")
+
+			var clas = document.getElementsByClassName("pass")
+
+			var selector = document.querySelector("p")
+
+			console.log(byid)
+			console.log(tag)
+			console.log(clas)
+			console.log(selector)
+		}
+
+		
+
+	</script>
+</body>
+</html>
